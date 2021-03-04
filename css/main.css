@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+}
+
+/* GENERALES */
+
+body, .tooltip, .popover {
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+h2 {
+  margin-bottom: 3rem;
+}
+
+ .text-center {
+   text-align: center;
+ }
+
+ .w-100 {
+   width: 100%;
+ }
+
+/* SVG */
+path {
+  fill: #e8e8e8;
+  stroke: #fff;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 0.5px;
+  transition: all 0.5s ease;
+}
+path:hover {
+  fill: #FFC91F;
+}
+svg {
+  margin-bottom: 2rem;
+  height: auto;
+}
+.selected {
+fill: #1abc9c;
+}
+
+/* LOGO */
+@media (max-width:364px) {
+.navbar-brand {
+  font-size: 1.1rem;
+}
+}
+
+/* POP-UP */
+.info-com-rural {
+  display: none;
+  text-align: left;
+  border-radius: 1rem;
+  padding: 3rem 1rem;
+  margin: 1rem;
+  background-color: #f6f6f6;
+}
+.info-com-urbana {
+  text-align: left;
+  border-radius: 1rem;
+  padding: 3rem 1rem;
+  margin: 0 auto;
+  background-color:  #f6f6f6;
+}
+@media (min-width:992px) {
+  .info-com-urbana {
+    width: 50%;
+  }
+}
+@media (max-width:991px) {
+.flex-pop-up, .flex-div {
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+}
+
+/* NOMBRE COMUNA */
+.nombre-comuna {
+  font-weight: 700;
+  color: #2c3e50;
+  width: 100%;
+  text-align: center;
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+.nombre-corregimiento {
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+.nombre-comuna, .numero-personas, .icon-personas  {
+  /*transition: all 1s ease;*/
+}
+
+/* PERSONAS INVOLUCRADAS */
+.numero-personas::after, .numero-personas2::after  {
+  content: ' Personas Impactadas';
+}
+
+
+/* BACKGROUND */
+.bg-blue {
+    background-color: #30478C;;
+}
+
+/* MENU */
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+  color: #fff;
+}
+.rurales .navbar-nav li:first-child a {
+    color: #fff;
+    background: #1abc9c;
+}
+.urbanas .navbar-nav li:first-child + li a {
+    color: #fff;
+    background:#30478C;
+}
+.navbar-collapse {
+    text-align: center;
+}

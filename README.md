@@ -7,4 +7,4 @@ Entrar en *http://impactoenmunicipio.great-site.net/*
 - Bootstrap
 - PHP
 - CSS
-- JAVASCRIPT
+- JavaScript
